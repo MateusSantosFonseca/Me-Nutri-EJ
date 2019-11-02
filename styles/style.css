@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Raleway';
+    color: rgb(89, 89, 89);
+}
+
+nav {
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    float: right;
+    margin-top: 95px;
+}
+
+nav a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.links {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 249, 63);
+}
+
+nav a.btn_destaque {
+    margin-left: 25px;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+/*estilo da barra superior, de horario de funcionamento*/
+
+.barra_superior {
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.btn_destaque {
+    background-color: rgb(4, 191, 70);
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.secao_1 {
+    padding-top: 0%;
+    background-image: url(../images/alimentacaoSaudavel.png);
+    background-size: 58%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.secao_1 p.titulo {
+    font-size: 25px;
+    padding-top: 280px;
+    margin-left: 100px;
+    padding-bottom: 40px;
+}
+
+.secao_1 a.btn_destaque {
+    margin-left: 80px;
+}
+
+.descricao {
+    font-size: 17px;
+    color: rgb(89, 89, 89);
+}
+
+#produtosOferecidos {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgb(89, 89, 89);
+}
+
+#tituloSomosNos {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: rgb(89, 89, 89);
+}
+
+.secao_2 {
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.secao_3 {
+    margin: 20px;
+}
+
+.descricaoHs {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+p.tituloServico {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.column-left {
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin-bottom: 60px;
+}
+
+.column-left img {
+    width: 320px;
+}
+
+.column-right {
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.column-right img {
+    width: 430px;
+}
+
+.tituloServico {
+    color: rgb(89, 89, 89);
+    font-size: 16px;
+}
+
+.direitos_reservados {
+    margin-top: 30px;
+    background-color: rgb(4, 191, 70);
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.colUmTerco {
+    width: 50%;
+    float: left;
+}
+
+.colUmTerco2 {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+.footer {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+.textoEnd {
+    font-size: 12px;
+}
+
+#POP{
+    width: 300px;
+    height: 200px;
+}
+
+#cardapio{
+    width: 200px;
+}
+
+#boasPraticas2{
+    width: 300px;
+}
+
+#fb{
+margin-right: 20px;
+}
+
+#insta{
+    margin-right: 20px;
+}
+
+.redesSociais{
+    margin-top: 20px;
+}
+
+.maps{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 829px) {
+    .barra_superior .container {
+        margin-left: 10px;
+    }
+    .header {
+        padding: 0px;
+    }
+    .logo {
+        display: block;
+        margin: 0px;
+        width: 100%;
+    }
+    nav {
+        margin-top: 25px;
+        float: none;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    #ondeEstamosBotaoMenu {
+        margin-top: 25px;
+        text-align: center;
+        display: block;
+    }
+    #tituloSomosNos {
+        margin-top: 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    p.descricao {
+        font-size: 12px;
+    }
+    .secao_1 {
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 0px;
+        height: auto;
+    }
+    .secao_1 a.btn_destaque {
+        all: unset;
+        font-size: 0px;
+    }
+    .container .titulo {
+        margin: 0px;
+    }
+    .titulo {
+        font-size: 10px;
+        padding: 0px;
+    }
+    .secao_1 p {
+        margin-left: 20px;
+        padding-left: 0px;
+    }
+    .secao_1 p.titulo {
+        margin: 0px;
+        padding-right: 0px;
+        padding-top: 150px;
+        font-size: 9px;
+    }
+    .descricao {
+        font-size: 20px;
+    }
+    .descricaoHs {
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    #produtosOferecidos {
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+    p#boasPraticas {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .column-left {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .column-left img {
+        width: 80%;
+    }
+    .column-right {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .column-right img {
+        width: 80%;
+    }
+    .footer {
+        margin: 0px;
+    }
+    #logoFooter {
+        margin-top: 30px;
+        width: 200px;
+    }
+    .colUmTerco {
+        padding: 0px;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .colUmTerco p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    .colUmTerco img {
+        margin: 5px;
+    }
+    .colUmTerco2 {
+        margin-top: 20px;
+        width: 100%;
+        padding: 0px;
+        float: none;
+        text-align: center;
+    }
+    .colUmTerco2 p {
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .colUmTerco2 h3 {
+        font-size: 20px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .textoEnd {
+        margin-bottom: 20px;
+    }
+
+    #POP{
+       width: 100%;
+       height: 100%;
+    }
+
+    #cardapio{
+        width: 100%;
+        height: 100%;
+    }
+
+    #boasPraticas2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .direitos_reservados {
+        margin-top: 15px;
+    }
+
+   #mapsGoogle{
+       width: 90%;
+       height: 400px;
+       margin-bottom: 30px;
+   }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1028px) {
+    .secao_1 p.titulo {
+        font-size: 25px;
+        padding-top: 260px;
+        margin-left: 100px;
+        padding-bottom: 60px;
+    }
+    .secao_1{
+        padding-top: 0%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 830px) and (max-width: 1367px) {
+   
+    .column-left img {
+        width: 50%;
+    }
+    
+    .column-right img {
+        width: 50%;
+    }
+
+    .secao_1 p.titulo{
+        font-size: 18px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .secao_1 a.btn_destaque {
+        font-size: 14px;
+    }
+
+    .colUmTerco {
+        margin-left: 100px;
+    }
+
+    .colUmTerco2 {
+        margin-left: 200px;
+    }
+    .footer{
+        display: flex;
+        margin-left: 0px;
+    }
+
+
+}
