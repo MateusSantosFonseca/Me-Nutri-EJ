@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
 .clearfix {
     clear: both;
 }
@@ -18,7 +17,7 @@ nav {
 }
 
 nav a {
-    color: rgb(150, 150, 150);
+    color: rgb(20, 6, 6);
     text-decoration: none;
 }
 
@@ -175,34 +174,71 @@ p.tituloServico {
     font-size: 12px;
 }
 
-#POP{
+#POP {
     width: 300px;
     height: 200px;
 }
 
-#cardapio{
+#cardapio {
     width: 200px;
 }
 
-#boasPraticas2{
+#boasPraticas2 {
     width: 300px;
 }
 
-#fb{
-margin-right: 20px;
-}
-
-#insta{
+#fb {
     margin-right: 20px;
 }
 
-.redesSociais{
+#insta {
+    margin-right: 20px;
+}
+
+.redesSociais {
     margin-top: 20px;
 }
 
-.maps{
+.redesSociais a {
+    text-decoration: none;
+}
+
+.maps {
     margin-top: 50px;
     text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#submitMensagem {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contato {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.endereco {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#NomeUsuario, #EmailUsuario {
+    margin-left: 20px;
+}
+
+#TelefoneUsuario {
+    margin-left: 5px;
 }
 
 @media screen and (max-width: 829px) {
@@ -339,31 +375,43 @@ margin-right: 20px;
     .textoEnd {
         margin-bottom: 20px;
     }
-
-    #POP{
-       width: 100%;
-       height: 100%;
-    }
-
-    #cardapio{
+    #POP {
         width: 100%;
         height: 100%;
     }
-
-    #boasPraticas2{
+    #cardapio {
         width: 100%;
         height: 100%;
     }
-
+    #boasPraticas2 {
+        width: 100%;
+        height: 100%;
+    }
     .direitos_reservados {
         margin-top: 15px;
     }
-
-   #mapsGoogle{
-       width: 90%;
-       height: 400px;
-       margin-bottom: 30px;
-   }
+    #mapsGoogle {
+        width: 90%;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    #labelUser {
+        margin-bottom: 10px;
+    }
+    #NomeUsuario {
+        margin-top: 10px;
+    }
+    #TelefoneUsuario {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    #EmailUsuario {
+        margin-top: 10px;
+    }
+    #MensagemUsuario {
+        height: 50%;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1020px) and (max-width: 1028px) {
@@ -373,46 +421,38 @@ margin-right: 20px;
         margin-left: 100px;
         padding-bottom: 60px;
     }
-    .secao_1{
+    .secao_1 {
         padding-top: 0%;
     }
 }
 
-
-
-
 @media screen and (min-width: 830px) and (max-width: 1367px) {
-   
     .column-left img {
         width: 50%;
     }
-    
     .column-right img {
         width: 50%;
     }
-
-    .secao_1 p.titulo{
+    .secao_1 p.titulo {
         font-size: 18px;
         margin: 0px;
         margin-top: 10px;
         margin-left: 60px;
     }
-
     .secao_1 a.btn_destaque {
         font-size: 14px;
     }
-
     .colUmTerco {
         margin-left: 100px;
     }
-
     .colUmTerco2 {
         margin-left: 200px;
     }
-    .footer{
+    .footer {
         display: flex;
         margin-left: 0px;
     }
-
-
+    .direitos_reservados {
+        margin-top: 0px;
+    }
 }

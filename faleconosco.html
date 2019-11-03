@@ -44,59 +44,67 @@
     </header>
 
     <br class="clearfix" />
-    <div class="container">
 
-        <form enctype="application/x-www-form-urlencoded" method="POST">
-            <p>
-                <label for="NomeUsuario">Nome</label>
-                <input id="NomeUsuario" type="text" name="NomeUsuario" placeholder="Digite seu nome completo" />
-            </p>
+    <section class="secFaleConosco">
 
-            <p>
-                <label for="EmailUsuario">E-Mail</label>
-                <input id="EmailUsuario" type="email" name="EmailUsuario" placeholder="Digite seu e-mail">
-            </p>
-            <p>
-                <label for="TelefoneUsuario">Telefone</label>
-                <input id="TelefoneUsuario" type="text" name="TelefoneUsuario" placeholder="Digite seu telefone">
-            </p>
+        <div class="container">
+            <div class="info">
+                <form enctype="application/x-www-form-urlencoded" method="POST">
+                    <p>
+                        <label for="NomeUsuario">Nome:</label>
+                        <input id="NomeUsuario" type="text" name="NomeUsuario" placeholder="Digite seu nome completo" />
+                    </p>
 
-            <p>
-                <label for="MensagemUsuario">Mensagem</label>
-                <textarea id="MensagemUsuario" type="text" name="MensagemUsuario"
-                    placeholder="Digite sua mensagem"></textarea>
-            </p>
-            <p>
-                <input type="submit" value="Enviar mensagem" />
-            </p>
-    </div>
+                    <p>
+                        <label for="EmailUsuario">E-Mail:</label>
+                        <input id="EmailUsuario" type="email" name="EmailUsuario" placeholder="Digite seu e-mail">
+                    </p>
+                    <p>
+                        <label id="labelUser" for="TelefoneUsuario">Telefone:</label>
+                        <input id="TelefoneUsuario" type="text" name="TelefoneUsuario"
+                            placeholder="Digite seu telefone">
+                    </p>
 
-    </form>
-    <div class="container">
-        <div>
-            <p>
-                Telefone de contato: (34) xxxx-xxxx
-                <br />
-                Redes sociais: (face, insta)
-            </p>
+                    <p>
+                        <label for="MensagemUsuario">Mensagem:</label>
+                        <br class="clearfix"/>
+                        <br class="clearfix"/>
+                        <textarea id="MensagemUsuario" type="text" name="MensagemUsuario"
+                            placeholder="Digite sua mensagem" rows="12" cols="60"></textarea>
+                    </p>
+                    <p>
+                        <input id="submitMensagem" type="submit" value="Enviar mensagem" />
+                    </p>
+            </div>
         </div>
-        <div>
-            <p>
-                <address>
-                    <br />
-                    Universidade Federal de Viçosa, Sala PVA 121
-                    <br />
-                    Rod. BR-354 S/N, km. 310,
-                    <br />
-                    38810-000
-                    <br />
-                    Brasil, Rio Paranaíba, MG
-                </address>
-            </p>
 
+        </form>
+        <div class="container">
+            <div class="contato">
+                <p>
+                    Telefone de contato: (34) xxxx-xxxx
+                    <br />
+                    Redes sociais: (face, insta)
+                </p>
+            </div>
+            <div class="endereco">
+                <p>
+                    <address>
+                        <br />
+                        Universidade Federal de Viçosa, Sala PVA 121
+                        <br />
+                        Rod. BR-354 S/N, km. 310,
+                        <br />
+                        38810-000
+                        <br />
+                        Brasil, Rio Paranaíba, MG
+                    </address>
+                </p>
+
+            </div>
         </div>
-    </div>
-    <br class="clearfix" />
+        <br class="clearfix" />
+    </section>
 
     <footer>
         <div class="container">
@@ -112,13 +120,13 @@
                     </p>
 
                     <p class="redesSociais">
-                        <a class="links" href="https://www.facebook.com/menutriej/">
+                        <a target="_blank" class="links" href="https://www.facebook.com/menutriej/">
                             <img id="fb" alt="Logo facebook" src="images/facebookLogo.jpg" width="50px">
                         </a>
-                        <a href="https://www.instagram.com/menutriej/">
+                        <a target="_blank" href="https://www.instagram.com/menutriej/">
                             <img id="insta" alt="Logo instagram" src="images/instagramLogo.jpg" width="50px">
                         </a>
-                        <a href="https://wa.me/+5531982086359/?text=urlencodedtext">
+                        <a target="_blank" href="https://wa.me/+5531982086359/?text=urlencodedtext">
                             <img id="whatsapp" alt="Logo do whatsapp" src="images/whatsappLogo.jpg" width="50px">
                         </a>
 
