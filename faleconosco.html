@@ -49,66 +49,55 @@
 
         <div class="container">
             <div class="info">
-                <form enctype="application/x-www-form-urlencoded" method="POST">
+                <form class="formFaleConosco" enctype="application/x-www-form-urlencoded" method="POST">
                     <p>
                         <label for="NomeUsuario">Nome:</label>
-                        <input id="NomeUsuario" type="text" name="NomeUsuario" placeholder="Digite seu nome completo" />
+                        <input id="NomeUsuario" type="text" name="NomeUsuario" placeholder="Digite seu nome completo"
+                            autocomplete="off" />
+                        <label id="mensagemErroNome" for="EmailUsuario">* O Nome inserido é inválido!!</label>
                     </p>
 
                     <p>
                         <label for="EmailUsuario">E-Mail:</label>
-                        <input id="EmailUsuario" type="email" name="EmailUsuario" placeholder="Digite seu e-mail">
+                        <input id="EmailUsuario" type="text" name="EmailUsuario" placeholder="Digite seu e-mail"
+                            autocomplete="off">
+                        <label id="mensagemErroEMail" for="EmailUsuario">* O E-Mail inserido está incorreto!!</label>
                     </p>
                     <p>
                         <label id="labelUser" for="TelefoneUsuario">Telefone:</label>
-                        <input id="TelefoneUsuario" type="text" name="TelefoneUsuario"
-                            placeholder="Digite seu telefone">
+                        <input id="TelefoneUsuario" type="text" name="TelefoneUsuario" placeholder="Digite seu telefone"
+                            autocomplete="off">
+                        <label id="mensagemErroTelefone" for="TelefoneUsuario">* O telefone inserido está incorreto
+                            (Verifique a inserção do DDD)!!</label>
                     </p>
 
                     <p>
                         <label for="MensagemUsuario">Mensagem:</label>
-                        <br class="clearfix"/>
-                        <br class="clearfix"/>
+                        <br class="clearfix" />
+                        <br class="clearfix" />
                         <textarea id="MensagemUsuario" type="text" name="MensagemUsuario"
-                            placeholder="Digite sua mensagem" rows="12" cols="60"></textarea>
+                            placeholder="Digite sua mensagem" rows="12" cols="60" autocomplete="off"></textarea>
+                        <label id="mensagemErroMensagem" for="MensagemUsuario">* A mensagem deve possuir entre 10 e 1000
+                            caracteres!!</label>
+                            <br class="clearfix"/>
+                        <label id="qntCaracteres" for="MensagemUsuario">
+                        </label>
                     </p>
                     <p>
-                        <input id="submitMensagem" type="submit" value="Enviar mensagem" />
+                        <input class="btn_destaque" id="submitMensagem" type="submit" value="Enviar mensagem"
+                            onclick="validarFormularioFaleConosco()"/>
                     </p>
             </div>
         </div>
 
         </form>
-        <div class="container">
-            <div class="contato">
-                <p>
-                    Telefone de contato: (34) xxxx-xxxx
-                    <br />
-                    Redes sociais: (face, insta)
-                </p>
-            </div>
-            <div class="endereco">
-                <p>
-                    <address>
-                        <br />
-                        Universidade Federal de Viçosa, Sala PVA 121
-                        <br />
-                        Rod. BR-354 S/N, km. 310,
-                        <br />
-                        38810-000
-                        <br />
-                        Brasil, Rio Paranaíba, MG
-                    </address>
-                </p>
 
-            </div>
-        </div>
         <br class="clearfix" />
     </section>
 
     <footer>
         <div class="container">
-            <div class="footer">
+            <div class="footer" id="footerFaleConosco">
 
                 <div class="colUmTerco">
                     <img id="logoFooter" alt="Logo da MeNutri" title="Aqui é apresentada a logo da MeNutri!!"
@@ -168,6 +157,7 @@
         </div>
 
     </footer>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
