@@ -54,9 +54,8 @@ function validarFormularioFaleConosco() {
         event.preventDefault();
     }
 
-
-    alert('Mesmo estando com campos corretos ou incorretos, o formulario nao enviado, pois a funcionalidade ainda não foi implementada! Desculpe!');
-    alert('Mesmo assim, caso os campos tenham sido preenchidos incorretamente, eles ficarão em vermelho!!')
+    alert('Caso os campos estejam preenchidos de forma incorreta, mensagens de erro aparecerão!!')
+    alert('Estando incorreto ou não, o formulario não será enviado, pois a funcionalidade ainda não foi implementada! Desculpe!!');
     event.preventDefault();
 }
 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Fale conosco</title>
+    <title>MeNutri - Fale conosco</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href='styles/style.css'>
 </head>
@@ -24,15 +24,17 @@
                 <img class="logo" alt="Logo da MeNutri" title="Aqui é apresentada a logo da MeNutri!!"
                     src="images/MeNutriLogo.jpeg" width="200px" />
                 <nav>
-                    <a title="Redireciona para o início da página" href="index.html#inicio">Página Inicial | </a>
-                    <a title="Redireciona para a seção que indica quem nós somos" href="index.html#QuemSomos">Quem somos
+                    <a title="Redireciona para o início da página" class="menuLinks" href="index.html#inicio">Página
+                        Inicial | </a>
+                    <a title="Redireciona para a seção que indica quem nós somos" class="menuLinks"
+                        href="index.html#QuemSomos">Quem somos
                         | </a>
-                    <a title="Redireciona para a seção que indica serviços oferecidos"
+                    <a title="Redireciona para a seção que indica serviços oferecidos" class="menuLinks"
                         href="index.html#NossosServicos">Nossos
                         serviços
                         |
                     </a>
-                    <a title="Redireciona para a página Fale Conosco" href="faleconosco.html">Fale
+                    <a title="Redireciona para a página Fale Conosco" class="menuLinks" href="faleconosco.html">Fale
                         Conosco</a>
                     <a id="ondeEstamosBotaoMenu" class="btn_destaque" title="Redireciona para a pagina Onde Estamos"
                         href="ondeestamos.html">Onde
@@ -79,13 +81,13 @@
                             placeholder="Digite sua mensagem" rows="12" cols="60" autocomplete="off"></textarea>
                         <label id="mensagemErroMensagem" for="MensagemUsuario">* A mensagem deve possuir entre 10 e 1000
                             caracteres!!</label>
-                            <br class="clearfix"/>
+                        <br class="clearfix" />
                         <label id="qntCaracteres" for="MensagemUsuario">
                         </label>
                     </p>
                     <p>
                         <input class="btn_destaque" id="submitMensagem" type="submit" value="Enviar mensagem"
-                            onclick="validarFormularioFaleConosco()"/>
+                            onclick="validarFormularioFaleConosco()" />
                     </p>
             </div>
         </div>
@@ -115,7 +117,7 @@
                         <a target="_blank" href="https://www.instagram.com/menutriej/">
                             <img id="insta" alt="Logo instagram" src="images/instagramLogo.jpg" width="50px">
                         </a>
-                        <a target="_blank" href="https://wa.me/+5531982086359/?text=urlencodedtext">
+                        <a target="_blank" href="https://wa.me/+5531982086359/?text=Olá, MeNutri!">
                             <img id="whatsapp" alt="Logo do whatsapp" src="images/whatsappLogo.jpg" width="50px">
                         </a>
 
